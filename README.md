@@ -69,7 +69,6 @@ def User_Guess_Grabber(number):
 - If the condition is True then print You win and quit.
 - Checking if the Feedback is not equal to 4.
 - If the condition is True then print You lose! and the answer.
-- Calling the main Function.
 
 ```python
 def main():
