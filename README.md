@@ -6,6 +6,8 @@
 ```python
 import random
 ```
+### Code_maker
+
 - Defining the function named as Code_maker which will choose the code from the list of words.
 - Declaring a variable named as Code and assigning an empty list to it.
 - Initializing a for loop.
@@ -18,6 +20,7 @@ def Code_Maker():
         Code.append(random.choice(['R', 'G', 'B', 'Y', 'W', 'V', 'O', 'P']))
     return Code
 ```
+### Feedback_Function
 
 - Defining the function named as Feedback_Function which will give the feedback according to the user's guess.
 - Declaring a variable named as Feedback and assigning a list to it with two values.
@@ -37,6 +40,7 @@ def Feedback_Function(Code, user_guess):
             Feedback[1] += 1
     return Feedback
 ```
+### User_Guess_Grabber
 
 - Defining the function named as User_Guess_Grabber which will store the user's guesses.
 - Declaring a variable named as user_guess and assigning a user input to it.
@@ -50,6 +54,7 @@ def User_Guess_Grabber(number):
         user_guess = input("Invalid:  ")
     return user_guess
 ```
+### Main
 
 - Defining the function named as main which is the main branch of this process.
 - Declaring a variable named as number and assigning an integer user input to it.
