@@ -1,4 +1,4 @@
-# # Importing Required Package.
+# Importing Required Package.
 import random
 
 # Defining the function named as Code_maker which will choose the code from the list of words.
